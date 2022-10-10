@@ -9,6 +9,7 @@ function App() {
         <div class="container">
           <ul>
             <li style={{ '--i': 6 }} onMouseOver={()=>{setCount(count +1)}}>{count}</li>  
+            <li style={{ '--i': 5 }} onMouseOver={()=>{setCount(count +1)}}>{count}</li> 
           </ul>
         </div>
       </header>
